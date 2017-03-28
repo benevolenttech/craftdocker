@@ -10,6 +10,6 @@ A Craft base running on sealink/phpdocker
 
 run `docker-compose build`
 then `docker-compose up`
-then navigate to craft.dev/admin to see craft's installation page.
+then navigate to localhost:8080/admin/install to see craft's installation page.
 
 and <http://craft.dev/craftversion.txt> to see the correct version
