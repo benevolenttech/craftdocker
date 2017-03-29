@@ -4,6 +4,7 @@ web:
     - 8080:80
   volumes:
     - ./log:/var/log
+    - ./approotmount:/app
   links:
     - mysql
   # env vars are replace into /cms/craft/config

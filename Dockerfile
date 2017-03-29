@@ -37,4 +37,6 @@ ADD ./config /app/craft/config
 
 RUN chown -Rf nginx:nginx /app
 
+RUN mv /app /app_orig
+
 EXPOSE 80
