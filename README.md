@@ -45,3 +45,10 @@ docker-compose up
 
 Rock and roll!
 
+## Pro-Tip
+
+Add this to your .bashrc and/or .profile for easy ssh
+```bash
+alias docker-ssh='docker exec -i -t `docker ps --filter name=testbest_web -q` /bin/bash'
+```
+
